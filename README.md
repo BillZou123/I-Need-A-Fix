@@ -21,8 +21,7 @@
 
  ### 3) Default admin login
  - Email: `admin@example.com`
- - Password: value in `.env` under `FIRST_SUPERUSER_PASSWORD`
-
+ - Password: D8RgMIpT_x4B1USb9BEgB7zhfaiGnZZelweYAEOVvlU
  ### 4) Stop the stack
  ```bash
  docker compose down
