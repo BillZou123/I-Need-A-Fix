@@ -1,4 +1,34 @@
+# I Need A Fix
 
+ A full-stack medical appointment booking app built with FastAPI + React.
+
+ ## How to run the project
+
+ ### Prerequisites
+ - Docker Desktop
+ - macOS/Linux hosts entry for local domains (if not already present)
+
+ ### 1) Start the stack
+ From the project root:
+
+ ```bash
+ docker compose up -d --build
+ ```
+
+ ### 2) Open the app
+ - Frontend: http://dashboard.localhost
+ - Backend API: http://api.localhost
+
+ ### 3) Default admin login
+ - Email: `admin@example.com`
+ - Password: value in `.env` under `FIRST_SUPERUSER_PASSWORD`
+
+ ### 4) Stop the stack
+ ```bash
+ docker compose down
+ ```
+
+ ---
 
  ## What I built
 
