@@ -8,7 +8,7 @@ node_modules/
 # Environment variables
 # Root .env file contains secrets (database passwords, API keys, etc.)
 # Frontend .env files typically contain public configuration (API URLs) but are ignored for consistency
-.env
+
 
 # Python
 __pycache__/
