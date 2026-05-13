@@ -8,21 +8,26 @@
  - Docker Desktop
  - macOS/Linux hosts entry for local domains (if not already present)
 
- ### 1) Start the stack
+ ### 1) Create your environment file
+ From the project root, copy `.env.example` to `.env` and replace all `changethis` values with your own secrets/passwords.
+
+ ### 2) Start the stack
  From the project root:
 
  ```bash
  docker compose up -d --build
  ```
 
- ### 2) Open the app
+ ### 3) Open the app
  - Frontend: http://dashboard.localhost
  - Backend API: http://api.localhost
 
- ### 3) Default admin login
+ ### 4) Default admin login
  - Email: `admin@example.com`
- - Password: D8RgMIpT_x4B1USb9BEgB7zhfaiGnZZelweYAEOVvlU
- ### 4) Stop the stack
+ - Password: Your_Password
+
+ All sample doctors and patients share the password `Testpass1!`
+ ### 5) Stop the stack
  ```bash
  docker compose down
  ```
