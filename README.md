@@ -27,6 +27,23 @@
  - Password: Your_Password
 
  All sample doctors and patients share the password `Testpass1!`
+
+ #### Sample doctor logins
+
+ | Role | Name | Email | Password |
+ |---|---|---|---|
+ | Doctor | Dr. Sarah Chen | dr.chen@ineedafix.dev | Testpass1! |
+ | Doctor | Dr. Michael Patel | dr.patel@ineedafix.dev | Testpass1! |
+ | Doctor | Dr. Emily Rodriguez | dr.rodriguez@ineedafix.dev | Testpass1! |
+
+ #### Sample patient logins
+
+ | Role | Name | Email | Password |
+ |---|---|---|---|
+ | Patient | Alice Wong | alice@ineedafix.dev | Testpass1! |
+ | Patient | Bob Nguyen | bob@ineedafix.dev | Testpass1! |
+ | Patient | Carol Smith | carol@ineedafix.dev | Testpass1! |
+
  ### 5) Stop the stack
  ```bash
  docker compose down
